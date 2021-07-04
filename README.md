@@ -8,7 +8,7 @@ This is simple application of taxi service developed by using SOLID principles a
 - Add car to driver
 - Display all cars by current driver
 
-##Technologies
+## Technologies
 
 - JDBC
 - MySQL
@@ -18,7 +18,7 @@ This is simple application of taxi service developed by using SOLID principles a
 - JSTL
 - Maven, Maven Checkstyle
 
-##Application setup
+## Application setup
 
 - Clone this project to your local machine
 - Download and configure Apache Tomcat(recommend to use version 9.0.46)
