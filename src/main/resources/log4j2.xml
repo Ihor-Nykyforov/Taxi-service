@@ -11,13 +11,13 @@
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="taxi" level="debug" additivity="false">
-            <AppenderRef ref="LogToConsole"/>
+        <Logger name="taxi" level="info" additivity="false">
             <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="LogToConsole"/>
         </Logger>
         <Root level="error">
-            <AppenderRef ref="LogToConsole"/>
             <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="LogToConsole"/>
         </Root>
     </Loggers>
 </Configuration>
